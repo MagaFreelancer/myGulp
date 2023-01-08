@@ -1,0 +1,21 @@
+@import "./components/vars";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    // background-image: url("../img/4.jpg");
+
+    @include ph {}
+}
+
+.title {
+    font-size: 80px;
+
+    @include ph {
+        font-size: 20px;
+    }
+}
